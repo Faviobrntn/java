@@ -1,0 +1,23 @@
+package tarea1;
+
+import java.util.Scanner;
+
+public class Tarea1 {
+
+	public static void main(String[] args) {
+
+		String[] palabras = new String[20];
+		
+		for (int i = 0; i < palabras.length; i++) {
+			String palab = new Scanner(System.in).nextLine();
+			palabras[i] = palab;
+		}
+		
+		for (int i = palabras.length; i >= 0 ; i--) {
+			System.out.println(palabras[i]);
+		}
+		
+
+	}
+
+}

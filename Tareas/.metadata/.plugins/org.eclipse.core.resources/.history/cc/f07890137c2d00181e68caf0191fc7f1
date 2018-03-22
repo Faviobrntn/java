@@ -1,0 +1,17 @@
+package tarea1;
+
+import java.util.Scanner;
+
+public class Tarea2 {
+
+	public static void main(String[] args) {
+
+		int[] numeros = new int[20];
+		System.out.println("Ingrese el numero clave: ");
+		s = new Scanner(System.in);
+		String palab = s.nextLine();
+		palabras[i] = palab;
+		
+	}
+
+}
